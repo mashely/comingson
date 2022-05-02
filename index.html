@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comingSoon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    
+    <section id="banner">
+        <img src="/image/PROFZ.jpg" class="logo">
+        <div class="banner-text">
+            <h2>Clearing and forwarding Services </h2><br>
+            <marquee><h1>Full Website Coming soon ...</h1></marquee>
+            <p>We Are Not Number 1, But We Try Harder! &nbsp;&nbsp;&nbsp; <br>
+        </div>
+   
+
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="#banner">Home</a></li>
+                <li><a href="#feature">Features</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#gallary">Gallary</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+
+           
+
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="/image/menu.png" id="menu"> 
+    </div>
+
+      
+
+
+    <div class="social-links">
+        <a href="https://web.facebook.com/Shioways"> <i class="fa fa-facebook-official"></i></a>
+        <a href="https://www.instagram.com/shioways/"><i class="fa fa-instagram"></i></a>
+        <a href="https://twitter.com/halidishikony"><i class="fa fa-twitter-square"></i></a>
+    </div>
+
+    
+
+
+    
+        <div class="feature-box">
+            
+            
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa fa-map-marker"></i>
+                    </div>
+                        <div class="feature-text">
+                            <p>ADDRESS <br> POSTA SALAMANDER TOWER  <br> SAMORA AVENUE <br>0788863654  <br> 7th Floor </p>
+                        </div>
+                </div>
+            </div>
+
+
+                
+        </div>                        
+    </section>
+
+</section>
+
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu  = document.getElementById("menu")
+    
+        sideNav.style.left  = "-190px"
+    
+        menuBtn.onclick = function(){
+            if(sideNav.style.left == "-190px"){
+                sideNav.style.left = "0px";
+                //  menu.src = "image/close.jpg";
+                 menu.src = "image/close.png";
+            } 
+            else{
+                sideNav.style.left = "-190px";
+                 menu.src = "image/menu.png";
+            }
+        }   
+    </script>
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
